@@ -5,7 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MemeSlider</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="slider">
+      <div class="slider-wrapper">
+        <div class="slider-item" data-caption="Everyday">
+          <img class="img" src="./assets/1.jpg" alt="Everyday" />
+        </div>
+        <div class="slider-item" data-caption="Reading documentation">
+          <img class="img" src="./assets/2.jpg" alt="Reading documentation" />
+        </div>
+        <div class="slider-item" data-caption="Old code">
+          <img class="img" src="./assets/3.jpg" alt="Old code" />
+        </div>
+      </div>
+
+      <div class="slider-caption-controls">
+        <p class="slider-caption"></p>
+        <div class="slider-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
