@@ -54,11 +54,11 @@
 }
 
 .dot.active {
-  background-color: #333;
+  background-color: #292929;
 }
 
 .dot:hover {
-  background-color: #555;
+  background-color: #7e7e7e;
 }
 
 @media (max-width: 768px) {
